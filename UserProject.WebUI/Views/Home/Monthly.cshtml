@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+  @await Html.PartialAsync("_navbar")
+  <header>
+       <div class="jumbotron">
+            <h1 class="display-5">Merhabalar!</h1>
+            <p class="lead">Aşağıdaki listede aylık(A) olarak planlanan işleri görmektesiniz.</p>
+            <hr class="my-4">
+        </div>
+    </header>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+            <th scope="col"></th>
+            <th scope="col">Konu</th>
+            <th scope="col">Açıklama</th>
+            <th scope="col">Aciliyet</th>
+            <th scope="col">Başlangıç</th>
+            <th scope="col">Bitiş</th>
+            <th scope="col">Tipi</th>
+            <th scope="col">Not</th>
+            <th scope="col"></th>
+    </tr>
+    </thead>
+    <tbody>
+      @for (int i = 0; i < Model.works.Count; i++)
+      {
+        {int a = i;}
+          <tr>
+                <th scope="row">@(i+1)</th>
+                <td>@Model.works[i].subject</td>
+                <td>@Model.works[i].DESCRIPTION</td>
+                <td>@Model.works[i].emergency</td>
+                <td>@Model.works[i].startDate</td>
+                <td>@Model.works[i].endDate</td>
+                <td>@Model.works[i].type</td>
+                <td>@Model.works[i].note</td>
+                <td><div class="button btn btn-secondary"><i class="fa fa-close"> Sil</i></div>  <div class="button btn btn-secondary"><i class="fa fa-bars"></i> Düzenle</div></td>
+            </tr>
+      }
+    
+  </tbody>
+    </table>
+    @await Html.PartialAsync("_footer")
+</body>
+</html>

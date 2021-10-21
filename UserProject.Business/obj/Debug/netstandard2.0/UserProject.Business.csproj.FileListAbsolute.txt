@@ -1,0 +1,14 @@
+C:\UserProject\UserProject.Business\bin\Debug\netstandard2.0\UserProject.Business.deps.json
+C:\UserProject\UserProject.Business\bin\Debug\netstandard2.0\UserProject.Business.dll
+C:\UserProject\UserProject.Business\bin\Debug\netstandard2.0\UserProject.Business.pdb
+C:\UserProject\UserProject.Business\bin\Debug\netstandard2.0\UserProject.DataAccess.dll
+C:\UserProject\UserProject.Business\bin\Debug\netstandard2.0\UserProject.Entity.dll
+C:\UserProject\UserProject.Business\bin\Debug\netstandard2.0\UserProject.Entity.pdb
+C:\UserProject\UserProject.Business\bin\Debug\netstandard2.0\UserProject.DataAccess.pdb
+C:\UserProject\UserProject.Business\obj\Debug\netstandard2.0\UserProject.Business.csprojAssemblyReference.cache
+C:\UserProject\UserProject.Business\obj\Debug\netstandard2.0\UserProject.Business.AssemblyInfoInputs.cache
+C:\UserProject\UserProject.Business\obj\Debug\netstandard2.0\UserProject.Business.AssemblyInfo.cs
+C:\UserProject\UserProject.Business\obj\Debug\netstandard2.0\UserProject.Business.csproj.CoreCompileInputs.cache
+C:\UserProject\UserProject.Business\obj\Debug\netstandard2.0\UserProject.Business.csproj.CopyComplete
+C:\UserProject\UserProject.Business\obj\Debug\netstandard2.0\UserProject.Business.dll
+C:\UserProject\UserProject.Business\obj\Debug\netstandard2.0\UserProject.Business.pdb
